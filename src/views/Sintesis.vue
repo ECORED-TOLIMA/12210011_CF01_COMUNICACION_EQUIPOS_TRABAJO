@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
-    
+    p Diagnosticar la comunicación de un equipo de trabajo es el paso previo a cualquier mejora. El recorrido va de lo general a lo concreto: parte de la cultura de la organización y del camino que sigue un mensaje, sigue con las barreras que lo interrumpen, describe los estilos de comunicación y las señales no verbales que los delatan, distingue los públicos internos y las formas de conversar con cada uno, y termina en la planeación. Cada eje aporta un criterio, y todos conducen a la misma conclusión: una estrategia de comunicación interna se sustenta en hallazgos y en objetivos que pueden verificarse.
+    p.mb-4 El mapa conceptual que se presenta a continuación organiza esos ejes y las relaciones que los articulan:
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="Mapa conceptual con los cinco ejes del componente formativo: cultura y proceso comunicativo, barreras de la comunicación, estilos y lenguaje no verbal, segmentación y asertividad, y planeación de la estrategia. Estos ejes conducen del diagnóstico a un plan que puede evaluarse.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
