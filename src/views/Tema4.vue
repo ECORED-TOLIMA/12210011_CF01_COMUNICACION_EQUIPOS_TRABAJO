@@ -100,7 +100,7 @@
       Separador
 
       #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 4.1. Segmentación de públicos
+        h2 4.1 Segmentación de públicos
 
       p.mb-4 Segmentar públicos internos significa reconocer que quienes integran una organización no constituyen un grupo homogéneo, sino un conjunto de personas y áreas con funciones, intereses, responsabilidades, lenguajes y necesidades de información diferentes. Esa distinción es la que permite que un mismo mensaje produzca el mismo entendimiento en destinatarios que trabajan en condiciones muy distintas.
 
@@ -187,7 +187,7 @@
       .row.justify-content-center.mb-4(data-aos="fade-left")
         .col-lg-10
           .contenido-interno
-            PasosA.color-acento-contenido.mb-5(tipo="l")
+            PasosA.color-acento-contenido.mb-5.pasos-texto-izquierda(tipo="l")
               .row.justify-content-center
                 .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
                   h3 Análisis de la base de datos de personal
@@ -202,7 +202,7 @@
                   p.mb-0 Indaga por cuáles canales consulta cada grupo, en qué momento de la jornada y con qué frecuencia, y aporta datos sobre el consumo real, que suele diferir del que la organización supone. En la práctica: una entidad descubre que su boletín se abre en la tarde y traslada el envío a esa franja. 
               .row.justify-content-center
                 .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
-                  h3 Entrevista con referentes de área:
+                  h3 Entrevista con referentes de área
                   p.mb-0 Recoge la percepción de coordinadores y líderes sobre las necesidades informativas de su equipo y permite detectar particularidades que los registros administrativos no revelan. En la práctica: un coordinador advierte que su grupo no consulta la intranet porque la conexión de la bodega no lo permite. 
                 .col-lg-2.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
                   img(src='@/assets/curso/temas/t4/img-13.svg', alt="")
@@ -233,7 +233,7 @@
       Separador
 
       #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 4.2. Comunicación asertiva
+        h2 4.2 Comunicación asertiva
 
       p.mb-4 En toda organización existen conversaciones que nadie quiere tener: informar un retraso, negar una solicitud razonable, señalar un error de alguien con más antigüedad o pedir que se corrija un trabajo ya entregado. De la manera en que se resuelvan esos momentos depende buena parte de la información que circula después.
 
@@ -284,7 +284,7 @@
       Separador
 
       #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 4.3. Técnicas de asertividad
+        h2 4.3 Técnicas de asertividad
 
       p.mb-4 Comprender en qué consiste la asertividad no garantiza aplicarla. En el momento en que alguien insiste, alza la voz o vuelve sobre una solicitud ya resuelta, hace falta un repertorio de respuestas aprendidas de antemano, porque la reacción espontánea suele inclinarse hacia el silencio o hacia la dureza.
 
@@ -317,7 +317,7 @@
       Separador
 
       #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 4.4. Protocolos de atención
+        h2 4.4 Protocolos de atención
 
       p.mb-4 Un protocolo de atención es el acuerdo que fija cómo responde la organización cuando alguien la contacta. No regula lo que cada persona siente ni su estilo personal: define lo que la entidad se compromete a hacer, de modo que la respuesta sea la misma sin importar quién la entregue ni por cuál medio llegue la solicitud.
 

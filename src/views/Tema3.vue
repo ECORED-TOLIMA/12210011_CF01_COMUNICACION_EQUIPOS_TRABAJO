@@ -111,7 +111,7 @@
       Separador
 
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 3.1. Estilos pasivo, agresivo y asertivo
+        h2 3.1 Estilos pasivo, agresivo y asertivo
 
       p.mb-4 El estilo de comunicación es la forma habitual en que una persona expresa lo que piensa, defiende lo que necesita y responde a lo que otros plantean. No se trata de un rasgo de carácter fijo ni de una cualidad heredada, sino de un patrón aprendido con el tiempo, que se refuerza cada vez que produce el resultado esperado.
 
@@ -202,7 +202,7 @@
       Separador
 
       #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 3.2. Elementos no verbales
+        h2 3.2 Elementos no verbales
 
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")(style="background-color: #74DCDD !important")
         .bloque-texto-g__img.img-bg-07
@@ -252,7 +252,7 @@
       Separador
 
       #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 3.3. Coherencia verbal y no verbal
+        h2 3.3 Coherencia verbal y no verbal
 
       p.mb-4 La coherencia comunicativa es la correspondencia entre lo que una persona dice y la manera en que lo dice. Cuando ambos planos coinciden, el mensaje se recibe como una sola señal y no exige esfuerzo de interpretación; cuando difieren, quien escucha debe elegir a cuál de los dos le concede crédito.
 
@@ -315,7 +315,7 @@
       Separador
 
       #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 3.4. Observación en el diagnóstico
+        h2 3.4 Observación en el diagnóstico
 
       p.mb-4 El diagnóstico comunicativo debe incluir la observación sistemática de patrones no verbales, porque estos revelan estados emocionales, formas de relación y niveles de compromiso que no siempre se expresan de manera explícita en los discursos. En este sentido, la comunicación no verbal se convierte en una fuente complementaria de información para comprender la dinámica del grupo.
 
@@ -362,7 +362,7 @@
       p.mb-4 Los cinco efectos apuntan a lo mismo: convertir la observación en argumento. Un equipo puede discutir un dato registrado, pero no una impresión, y esa diferencia es la que permite pasar del diagnóstico a las decisiones de mejora.
       
       .row.justify-content-center.mb-4
-        .col-lg-6.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
+        .col-lg-7.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
           .row.mb-0
             p.mb-4 La distancia entre lo que se dice y lo que se muestra se comprende mejor con situaciones cercanas a la vida laboral. El siguiente recurso de audio explica en qué se diferencian los tres estilos de comunicación, qué señales acompañan a cada uno y por qué el gesto termina pesando más que la palabra:
             .bg-color-8.tarjeta
@@ -375,13 +375,13 @@
                     h4.titulo-podcast-audio.mb-3 Pódcast
 
                     TarjetaAudio.audio-custom.color-secundario.bg-color-white.mb-3(
-                      texto="XXXXXX XXXXXX"
+                      texto="El cuerpo también habla: estilos de comunicación y señales no verbales."
                       tiempo
-                      :audio="require_src('@/assets/componentes/audios/podcast_diagnostico_accion.mp3')"
+                      :audio="require_src('@/assets/componentes/audios/podcast_estilos_comunicacion.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-        .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+        .col-lg-3.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/t3/img-20.png', alt='')
 

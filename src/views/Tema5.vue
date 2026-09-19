@@ -59,7 +59,7 @@
       Separador
 
       #t_5_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 5.1. Estructura organizacional
+        h2 5.1 Estructura organizacional
 
       p.mb-4 Toda estrategia de comunicación se inscribe en una estructura previa que determina quién decide, quién informa y quién debe ser informado. Ignorar esa estructura conduce a diseñar recorridos de información que la organización no puede sostener, porque atribuyen responsabilidades a cargos que no existen o suponen niveles de autonomía que nadie tiene.
 
@@ -117,9 +117,7 @@
       Separador
 
       #t_5_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 5.2. Objetivos SMART
-
-      p.mb-4 SMART es una sigla inglesa que reúne cinco condiciones de un objetivo bien formulado: específico, medible, alcanzable, relevante y temporal. Cada letra corresponde a una pregunta distinta, y solo cuando las cinco tienen respuesta el enunciado pasa de ser una intención a ser un compromiso.
+        h2 5.2 Objetivos SMART
 
       .row.justify-content-center.mb-4
         .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
@@ -222,7 +220,7 @@
       Separador
 
       #t_5_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 5.3. Programación de actividades
+        h2 5.3 Programación de actividades
 
       .row.justify-content-center.mb-4
         .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block

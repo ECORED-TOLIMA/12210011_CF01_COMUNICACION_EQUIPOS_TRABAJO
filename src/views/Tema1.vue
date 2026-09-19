@@ -14,7 +14,7 @@
         
       p.mb-4 La comunicación organizacional no se limita al intercambio de información entre personas de una empresa, sino que constituye un sistema de significados compartidos que orienta la coordinación, la interpretación de normas, la construcción de confianza y la consolidación de la identidad institucional.
 
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-4.recurso-cultura-comunicacion
         .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3.d-none.d-lg-block
           figure
             img(src='@/assets/curso/temas/t1/img-02.png', alt='')
@@ -26,7 +26,7 @@
               figure
                 img(src='@/assets/curso/temas/t1/img-03.svg', alt='')
             .col-lg-10.col-12
-              p.mb-4 Comprender este vínculo resulta esencial, ya que cualquier diagnóstico de la comunicación debe identificar no solo qué se comunica y por qué canal, sino también bajo qué supuestos culturales se interpreta la información y qué patrones organizacionales condicionan la participación, el liderazgo o el silencio.
+              p Comprender este vínculo resulta esencial, ya que cualquier diagnóstico de la comunicación debe identificar no solo qué se comunica y por qué canal, sino también bajo qué supuestos culturales se interpreta la información y qué patrones organizacionales condicionan la participación, el liderazgo o el silencio.
 
       p.mb-4 El análisis de la comunicación y de la cultura de una organización no se queda en la descripción. Habilita una secuencia de trabajo que avanza desde la observación hasta la decisión, y que se compone de cuatro momentos encadenados:
 
@@ -73,7 +73,7 @@
       Separador
 
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 1.1. Importancia de la comunicación
+        h2 1.1 Importancia de la comunicación
 
       .row.justify-content-center
         .col-lg-8.col-12.mb-md-0.order-lg-1.order-2.mb-lg-0
@@ -151,7 +151,7 @@
       Separador
 
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 1.2. Cultura organizacional
+        h2 1.2 Cultura organizacional
 
       p.mb-4 La cultura organizacional se define como el conjunto de valores, creencias, normas, símbolos, lenguajes, rituales y prácticas compartidas que dan identidad a una entidad y orientan la conducta de sus miembros. No se reduce a sus manifestaciones más evidentes, como un uniforme o un eslogan institucional: incluye también supuestos que operan por debajo de lo declarado.
 
@@ -262,7 +262,7 @@
       Separador
 
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 1.3. El proceso comunicativo
+        h2 1.3 El proceso comunicativo
 
       .row.justify-content-center.align-items-stretch.mb-4.g-0.recurso-c10-ajuste
         .col-lg-7.col-12.order-lg-2.order-2
@@ -323,7 +323,7 @@
       Separador
 
       #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 1.4. Emisor y receptor
+        h2 1.4 Emisor y receptor
 
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")(style="background-color: #74DCDD !important")
         .bloque-texto-g__img.img-bg-03
@@ -540,7 +540,7 @@
       Separador
 
       #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 1.5. Canales y retroalimentación
+        h2 1.5 Canales y retroalimentación
 
       p.mb-4 El análisis de la comunicación tiende a concentrarse en el contenido del mensaje y en las habilidades de quienes intervienen, y deja en segundo plano una pregunta igualmente decisiva: por dónde circula la información y qué ocurre después de emitirla. Los canales no son conductos neutros; cada uno impone condiciones de velocidad, fidelidad, formalidad y alcance que modifican el mensaje que transporta.
 

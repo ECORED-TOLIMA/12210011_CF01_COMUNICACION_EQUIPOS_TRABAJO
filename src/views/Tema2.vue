@@ -63,7 +63,7 @@
       Separador
 
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 2.1. Tipología de barreras
+        h2 2.1 Tipología de barreras
 
       .row.justify-content-center.align-items-stretch.mb-4.g-0.recurso-c10-ajuste
         .col-lg-7.col-12.order-lg-2.order-2
@@ -185,7 +185,7 @@
       Separador
 
       #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 2.2. Manifestaciones en el trabajo
+        h2 2.2 Manifestaciones en el trabajo
 
       p.mb-4 Las barreras comunicativas se manifiestan en situaciones cotidianas del trabajo, muchas veces normalizadas por la rutina institucional. Reuniones donde no se escuchan con claridad las instrucciones, mensajes enviados por canales poco pertinentes, colaboradores que no expresan dudas por temor a ser juzgados o equipos multigeneracionales que interpretan de manera distinta las interacciones digitales, son ejemplos concretos de estas interferencias.
 
@@ -246,7 +246,7 @@
       Separador
 
       #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 2.3. Diagnóstico de barreras
+        h2 2.3 Diagnóstico de barreras
 
       p.mb-4 Es necesario que se apliquen instrumentos de diagnóstico y se relacionen los hallazgos con los protocolos organizacionales vigentes. Esto significa que el análisis de barreras no debe realizarse de forma descontextualizada, sino contrastando la realidad observada con manuales, lineamientos internos, rutas de atención, canales definidos y normas de interacción establecidas por la organización.
 
