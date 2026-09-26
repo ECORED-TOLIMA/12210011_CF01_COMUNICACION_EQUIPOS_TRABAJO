@@ -30,7 +30,7 @@ export default {
         {
           id: 1,
           texto:
-            'Pregunta 1	Según Schein, ¿cuáles son los tres niveles que integran la cultura organizacional?',
+            'Según Schein, ¿cuáles son los tres niveles que integran la cultura organizacional?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
