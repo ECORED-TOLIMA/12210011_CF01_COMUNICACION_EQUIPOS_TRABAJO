@@ -129,7 +129,7 @@
       p.mb-4 Caracterizar públicos parece sencillo hasta que se intenta. La mayoría de las estrategias no fracasa por falta de información, sino por la manera en que se agrupa a las personas, y cuatro errores explican casi todos esos tropiezos:
 
       .cajon.cajon.C03.p-5.mb-4
-        SlyderB(:datos="datosSlyder")
+        SlyderB(:key="slyderErroresKey" :datos="datosSlyder")
 
       .row.justify-content-center.mb-4
         .col-lg-10.col-12
@@ -378,6 +378,7 @@ export default {
     indicadorTarjetaFlip: true,
     indicadorTarjetaSlide: true,
     mostrarIndicadorTarjetaAudio: true,
+    slyderErroresKey: 0,
 
     datosSlyder: [
       {
@@ -435,6 +436,13 @@ export default {
   }),
   mounted() {
     this.$nextTick(() => {
+      this.$aosRefresh()
+      this.slyderErroresKey += 1
+    })
+  },
+  activated() {
+    this.$nextTick(() => {
+      this.slyderErroresKey += 1
       this.$aosRefresh()
     })
   },
