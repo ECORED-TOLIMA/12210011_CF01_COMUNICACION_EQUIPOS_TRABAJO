@@ -305,7 +305,7 @@
       p.mb-4 Cuatro técnicas cubren la mayoría de esos momentos en la vida laboral y pueden practicarse desde la próxima conversación difícil. Estas son, con la situación en que cada una resulta útil:
 
       .cajon.cajon.C03.p-5.mb-4
-        SlyderB(:datos="datosSlyder2")
+        SlyderB(:key="slyderTecnicasKey" :datos="datosSlyder2")
 
       p.mb-4 Las cuatro comparten un rasgo: separan el problema de la persona. Ninguna busca ganar la conversación, sino mantenerla abierta el tiempo suficiente para que el asunto se resuelva sin que la relación de trabajo quede afectada.
 
@@ -362,90 +362,87 @@
 </template>
 
 <script>
-import imgSlyder16 from '@/assets/curso/temas/t4/img-16.png'
-import imgSlyder17 from '@/assets/curso/temas/t4/img-17.png'
-import imgSlyder18 from '@/assets/curso/temas/t4/img-18.png'
-import imgSlyder19 from '@/assets/curso/temas/t4/img-19.png'
-
-import imgSlyder26 from '@/assets/curso/temas/t4/img-26.png'
-import imgSlyder27 from '@/assets/curso/temas/t4/img-27.png'
-import imgSlyder28 from '@/assets/curso/temas/t4/img-28.png'
-import imgSlyder29 from '@/assets/curso/temas/t4/img-29.png'
-
 export default {
   name: 'Tema4',
+
   data: () => ({
     indicadorTarjetaFlip: true,
     indicadorTarjetaSlide: true,
     mostrarIndicadorTarjetaAudio: true,
+
     slyderErroresKey: 0,
+    slyderTecnicasKey: 0,
 
     datosSlyder: [
       {
         titulo: 'Segmentar por intuición',
         texto:
           'Agrupar según la cercanía o la impresión personal, sin un dato que respalde la división. Sucede cuando se afirma que el personal de planta no lee los correos, sin haber comprobado antes cuántas personas tienen cuenta institucional asignada.',
-        imagen: imgSlyder16,
+        imagen: './assets/curso/temas/t4/img-16.png',
       },
       {
         titulo: 'Confundir el cargo con la necesidad de información',
         texto:
           'Suponer que dos personas del mismo nivel requieren lo mismo. Sucede cuando un coordinador de una sede rural recibe idéntica circular que uno de la sede principal, pese a trabajar con conectividad intermitente.',
-        imagen: imgSlyder17,
+        imagen: './assets/curso/temas/t4/img-17.png',
       },
       {
         titulo: 'Multiplicar los grupos sin necesidad',
         texto:
           'Dividir tanto que la estrategia se vuelve inmanejable. Sucede cuando una entidad define doce públicos internos, no alcanza a preparar doce versiones del mensaje y termina enviando la misma a todos.',
-        imagen: imgSlyder18,
+        imagen: './assets/curso/temas/t4/img-18.png',
       },
       {
         titulo: 'Dejar por fuera a quienes no figuran en los registros',
         texto:
           'Personal tercerizado, aprendices o contratistas que no aparecen en las bases institucionales. Sucede cuando una campaña interna llega solo a quienes tienen correo, y el resto se entera por terceros.',
-        imagen: imgSlyder19,
+        imagen: './assets/curso/temas/t4/img-19.png',
       },
     ],
-
     datosSlyder2: [
       {
         titulo: 'El disco rayado',
         texto:
           'Consiste en repetir con calma el mensaje central cuando el interlocutor insiste o presiona para obtener una respuesta distinta. En una jornada corriente: ante un tercer requerimiento para adelantar una entrega comprometida con otra área, la respuesta se mantiene igual, sin justificaciones nuevas que abran discusión.',
-        imagen: imgSlyder26,
+        imagen: './assets/curso/temas/t4/img-26.png',
       },
       {
         titulo: 'El banco de niebla',
         texto:
           'Consiste en admitir la parte razonable de una crítica sin aceptar la acusación completa que la acompaña. En una jornada corriente: frente al reclamo «ustedes nunca responden a tiempo», se reconoce la demora del último informe y se deja fuera la generalización que no corresponde.',
-        imagen: imgSlyder27,
+        imagen: './assets/curso/temas/t4/img-27.png',
       },
       {
         titulo: 'La pregunta asertiva',
         texto:
           'Consiste en indagar el sentido de una observación antes de reaccionar a ella. En una jornada corriente: ante un comentario impreciso sobre la calidad de un trabajo, preguntar «¿a qué aspecto se refiere?» convierte la molestia en información aprovechable para corregir.',
-        imagen: imgSlyder28,
+        imagen: './assets/curso/temas/t4/img-28.png',
       },
       {
         titulo: 'El mensaje en primera persona',
         texto:
           'Consiste en describir el efecto de un hecho sobre quien habla, en lugar de atribuir intenciones. En una jornada corriente: decir «me preocupa que la información llegue después del cierre, porque retrasa el proceso» evita la acusación y deja el foco en la consecuencia.',
-        imagen: imgSlyder29,
+        imagen: './assets/curso/temas/t4/img-29.png',
       },
     ],
   }),
+
   mounted() {
     this.$nextTick(() => {
-      this.$aosRefresh()
       this.slyderErroresKey += 1
+      this.slyderTecnicasKey += 1
+      this.$aosRefresh()
     })
   },
+
   activated() {
     this.$nextTick(() => {
       this.slyderErroresKey += 1
+      this.slyderTecnicasKey += 1
       this.$aosRefresh()
     })
   },
+
   updated() {
     this.$aosRefresh()
   },
